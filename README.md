@@ -1,6 +1,6 @@
-# SQL Sales Analysis
+# Video Game Sales SQL Analysis
 
-This project analyzes sales data using SQL to identify key business insights and performance trends.
+This project analyzes video game sales data using SQL to identify industry trends, top-performing platforms, and best-selling games.
 
 ## Tools Used
 
@@ -10,12 +10,12 @@ This project analyzes sales data using SQL to identify key business insights and
 
 ## Key Questions
 
-- What are the top selling products?
-- Which regions generate the highest revenue?
-- What are the monthly revenue trends?
+- Which platforms generate the highest sales?
+- What are the best-selling video games?
+- Which genres dominate the market?
 
 ## Key Insights
 
-- Certain products drive a large portion of revenue
-- Sales increase during specific months
-- Some regions outperform others significantly
+- Certain platforms dominate global sales.
+- Action and sports games tend to perform strongly.
+- Sales trends vary significantly across years.
