@@ -17,7 +17,7 @@ CREATE TABLE platform (
 
 CREATE TABLE games (
 	game_id SERIAL PRIMARY KEY,
-	game_name VARCHAR(100) NOT NULL,
+	game_name VARCHAR(255) NOT NULL,
 	genre_id INT REFERENCES genre(genre_id),
 	publisher_id INT REFERENCES publisher(publisher_id)
 );
@@ -32,4 +32,5 @@ CREATE TABLE game_platform (
 	jp_sales NUMERIC (16,2),
 	other_sales NUMERIC (16,2),
 	global_sales NUMERIC (16,2)
+
 );
