@@ -20,19 +20,14 @@ The dataset contains global sales information for video games with the following
 **Note:** Some values, such as `Year = N/A`, were cleaned during the ETL process and stored as `NULL` in the final tables.
 
 ## Data Pipeline
-CSV (original dataset)
-↓
-Staging Table (staging_vgsales)
-↓
-Dimension Tables (genre, publisher, platform)
-↓
-Fact Tables (games, game_platform)
-↓
-Analytical Queries
+1. CSV (original dataset)
+2. Staging Table (staging_vgsales)
+3. Dimension Tables (genre, publisher, platform)
+4. Fact Tables (games, game_platform)
+5. Analytical Queries
 
 - The **staging table** allows importing the raw CSV without worrying about type mismatches or dirty data.  
 - The **normalized tables** ensure unique entries and proper relationships for analysis.  
-- Non-numeric or missing values, such as `N/A` in the year column, are converted to `NULL`.
 
 ## Key Questions
 
