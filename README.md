@@ -19,3 +19,12 @@ This project analyzes video game sales data using SQL to identify industry trend
 - Certain platforms dominate global sales.
 - Action and sports games tend to perform strongly.
 - Sales trends vary significantly across years.
+
+## Project workflow
+
+1. Create the database
+2. Run database/schema.sql
+3. Run database/staging_tables.sql
+4. Import vgsales.csv into staging_vgsales
+5. Run etl/load_from_staging.sql
+6. Execute queries in queries/
